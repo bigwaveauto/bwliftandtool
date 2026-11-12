@@ -1,0 +1,61 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
+        "shop": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "footer-shop"
+          }
+        },
+        "help": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "footer-help"
+          }
+        },
+        "contact": {
+          "type": "text",
+          "settings": {
+            "heading": "Showroom",
+            "subtext": "<p>N69W25055 Indiangrass Ln Unit H<br>Sussex, WI 53089<br>By appointment, Mon–Sat 9–6<br>[PHONE]</p>"
+          }
+        }
+      },
+      "block_order": [
+        "brand",
+        "shop",
+        "help",
+        "contact"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "body": {
+      "type": "rich-text",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A lift ships as one crate, about 12 feet long and 1,600 lb, by LTL freight truck. It's not a parcel and it doesn't come in a brown van. Here's the whole thing, start to finish.</p><ol><li><strong>Before it ships, we check your numbers.</strong> Ceiling height, concrete, and power against the spec sheet for the model you ordered. If something won't fit, you hear it from us before the crate exists.</li><li><strong>You pick how it arrives, at checkout.</strong> Business with a forklift or dock: freight included on Forward, flat zone rate on AMGO. Home driveway: liftgate truck, +$225 — the driver lowers the crate to the ground; it does not go inside. Pickup in Sussex, WI: free, by appointment, bring a trailer rated for the weight.</li><li><strong>The carrier calls you for a window.</strong> Usually a four-hour block on a weekday, a day or two ahead. Someone has to be there with a working daytime phone number. Tracking goes to your email the day it leaves the warehouse. Transit is typically 5–10 business days.</li><li><strong>Look before you sign.</strong> Count the pieces against the packing list, walk around the crate, photograph anything bent or torn, and write it on the delivery receipt. Do that and a damage claim is ours to chase with the carrier. Damage not noted at delivery can't be claimed.</li></ol><p>We don't ship to PO boxes, Alaska, Hawaii, or Puerto Rico.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "t"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "main",
+    "body"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "Request a quote",
+            "heading_size": "h1"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tell us the model and where it's going. We reply the same business day with a landed cash price, freight, and lead time. Credit cards add 3% on quoted orders.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "prefill": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>(function(){try{var p=new URLSearchParams(location.search);var m=p.get('product'),s=p.get('sku');if(!m&&!s)return;var ta=document.querySelector('textarea[name=\"contact[Comment]\"],textarea[name=\"contact[comment]\"]');if(ta&&!ta.value){ta.value='Quote request: '+(m||'')+(s?' ('+s+')':'')+'\\nDelivery ZIP: \\nBusiness with forklift, or home driveway (liftgate)?: \\nCeiling height / power: \\nNotes: ';}}catch(e){}})();</script>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "form",
+    "prefill"
+  ]
+}

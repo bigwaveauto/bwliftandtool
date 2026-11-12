@@ -1,0 +1,240 @@
+{
+  "sections": {
+    "hero": {
+      "type": "image-with-text",
+      "blocks": {
+        "h": {
+          "type": "heading",
+          "settings": {
+            "heading": "A lift for your garage, at the price a shop pays.",
+            "heading_size": "h0"
+          }
+        },
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>AMGO and Forward two-post and four-post lifts, bought through the same distributor the big shops use, sold at a cash price with the freight spelled out. We run one in our own bay in Sussex.</p>",
+            "text_style": "body"
+          }
+        },
+        "b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find the right lift",
+            "button_link": "#lifting",
+            "button_style_secondary": false,
+            "button_label_2": "See all 13 models",
+            "button_link_2": "shopify://collections/best-sellers",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "h",
+        "t",
+        "b"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 44,
+        "padding_bottom": 16
+      }
+    },
+    "lifting": {
+      "type": "bwlt-lifting",
+      "blocks": {
+        "c1": {
+          "type": "card",
+          "settings": {
+            "title": "Cars & crossovers",
+            "vehicles": "Model Y, Camry, Wrangler — under 6,000 lb",
+            "result": "<p>→ 9K lift, from <strong>$[PRICE]</strong></p>",
+            "ceiling": "needs 11′8″ ceiling [SPEC]",
+            "link": "shopify://collections/2-post-lifts"
+          }
+        },
+        "c2": {
+          "type": "card",
+          "settings": {
+            "title": "Half-ton & EV trucks",
+            "vehicles": "F-150, Silverado, Rivian R1T, Cybertruck",
+            "result": "<p>→ 10K lift, from <strong>$3,600</strong></p>",
+            "ceiling": "needs 12′ ceiling, or 10′6″ with a floor-plate model",
+            "link": "shopify://collections/2-post-lifts",
+            "highlight": true
+          }
+        },
+        "c3": {
+          "type": "card",
+          "settings": {
+            "title": "3/4- and one-ton",
+            "vehicles": "F-250/350, Ram 2500, Sprinter, Transit",
+            "result": "<p>→ 12K lift, <strong>$4,395</strong></p>",
+            "ceiling": "needs 12′6″ ceiling",
+            "link": "shopify://collections/2-post-lifts"
+          }
+        },
+        "c4": {
+          "type": "card",
+          "settings": {
+            "title": "Storage, not service",
+            "vehicles": "Park one car over another; 7–9K four-post",
+            "result": "<p>→ 407-P / 408-P / 409-HP, from <strong>$[PRICE]</strong></p>",
+            "ceiling": "needs 10′–12′ ceiling [SPEC]",
+            "link": "shopify://collections/4-post-lifts"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "settings": {
+        "eyebrow": "Start here — what are you lifting?",
+        "color_scheme": "scheme-1",
+        "padding_top": 8,
+        "padding_bottom": 44
+      }
+    },
+    "eight": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "The eight we keep in front",
+        "heading_size": "h2",
+        "description": "Need a different model? Search the full catalog — 124 more.",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "padding_top": 40,
+        "padding_bottom": 44
+      }
+    },
+    "steps": {
+      "type": "bwlt-steps",
+      "blocks": {
+        "s1": {
+          "type": "step",
+          "settings": {
+            "title": "Before it ships, we check your numbers.",
+            "text": "Ceiling height, concrete, and power against the spec sheet. If it won't fit, you hear it from us before the crate exists, not from the installer after."
+          }
+        },
+        "s2": {
+          "type": "step",
+          "settings": {
+            "title": "You pick how it arrives.",
+            "text": "Business with a forklift: included on Forward, flat zone rate on AMGO. Home driveway: liftgate truck, +$225 — the driver sets it on the ground, it doesn't go inside. Sussex pickup: free, bring a trailer."
+          }
+        },
+        "s3": {
+          "type": "step",
+          "settings": {
+            "title": "The carrier calls you for a window.",
+            "text": "Usually a four-hour block on a weekday. Somebody has to be there. Tracking hits your email the day it leaves."
+          }
+        },
+        "s4": {
+          "type": "step",
+          "settings": {
+            "title": "Look before you sign.",
+            "text": "Count pieces, photograph anything bent, write it on the receipt. Do that and a damage claim is our problem to chase, not yours."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {
+        "heading": "It's a 12-foot, 1,600-lb crate on a freight truck. Here's how that goes.",
+        "text": "<p>Most sites tell you this after you've paid. Freight is the part people get surprised by, so it's on the front page.</p>",
+        "color_scheme": "scheme-1",
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "duo": {
+      "type": "bwlt-duo",
+      "blocks": {
+        "p1": {
+          "type": "panel",
+          "settings": {
+            "heading": "Tire changers & balancers",
+            "text": "Coats, made in Tennessee, and AMGO. Coats is quote-only; we turn quotes around the same day.",
+            "link_label": "Tire & wheel",
+            "link": "shopify://collections/tire-and-wheel"
+          }
+        },
+        "p2": {
+          "type": "panel",
+          "settings": {
+            "heading": "Rotary, Atlas, BendPak, Challenger",
+            "text": "We sell them; we just don't print a price, because theirs moves. Send the model number and a ZIP and you'll have a landed price today.",
+            "link_label": "Request a quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "who": {
+      "type": "bwlt-who",
+      "settings": {
+        "heading": "Who you're buying from",
+        "text": "<p>I'm Dave Lucas. I own Big Wave Auto, an independent dealership in Sussex, and we recondition our own inventory on a lift in our bay. BW Lift &amp; Tool is me selling the equipment I'd buy again, through a distributor I've dealt with for years, at a price that's on the page. Come see one run before you buy — by appointment, Mon–Sat 9–6.</p>",
+        "address": "N69W25055 Indiangrass Ln Unit H, Sussex, WI 53089 · [PHONE]",
+        "button_label_1": "Call or text",
+        "button_link_1": "tel:+1",
+        "button_label_2": "Request a quote",
+        "button_link_2": "shopify://pages/request-a-quote",
+        "color_scheme": "scheme-4",
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "lifting",
+    "eight",
+    "steps",
+    "duo",
+    "who"
+  ]
+}

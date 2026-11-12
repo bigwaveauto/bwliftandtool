@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "body": {
+      "type": "rich-text",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Installation isn't included in the price. Four-post parking lifts and scissor lifts are usually assembled by the owner in an afternoon with two people. Two-post lifts anchor into concrete (most call for 4\" of 3,000-psi, cured 28 days — see the manual for your model) and most need a 220V single-phase circuit; we recommend a professional for those. We bolted down our own, so we can tell you what it takes, or connect you with an installer in southeast Wisconsin — ask before you order and we'll quote it with the lift.</p><p><strong>About certification.</strong> Forward lifts and the AMGO OH-10 ALI are ALI certified. Other AMGO models are CE certified. If your shop is subject to inspection or insurance requirements that call for ALI, choose a certified model or ask.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "t"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "main",
+    "body"
+  ]
+}

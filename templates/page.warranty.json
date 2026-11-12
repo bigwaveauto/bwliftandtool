@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "body": {
+      "type": "rich-text",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every product carries the manufacturer's factory warranty as published for that model — AMGO lifts are 5-year structural, 3-year hydraulic, 2-year electrical; Forward publishes its own structural and parts terms. Warranties are <strong>parts only</strong>; labor isn't covered. Contact us first and we open the claim with the manufacturer.</p><p>Because equipment ships by freight, returns are accepted for defective or incorrectly shipped items. Refused or returned shipments in good condition are subject to round-trip freight and a restocking fee. Ceiling, concrete, and power requirements are on every product page — confirm them before ordering, or ask us and we'll check.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "t"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "main",
+    "body"
+  ]
+}

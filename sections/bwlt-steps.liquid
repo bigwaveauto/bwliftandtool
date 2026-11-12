@@ -1,0 +1,46 @@
+{{ 'bwlt.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  #shopify-section-{{ section.id }} .bw-pad{padding-top:{{ section.settings.padding_top | times: 0.75 | round: 0 }}px;padding-bottom:{{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px}
+  @media screen and (min-width:750px){#shopify-section-{{ section.id }} .bw-pad{padding-top:{{ section.settings.padding_top }}px;padding-bottom:{{ section.settings.padding_bottom }}px}}
+{%- endstyle -%}
+<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="page-width bw-pad">
+  <div class="bw-steps">
+    <div>
+      <h2 class="h2" style="margin:0">{{ section.settings.heading }}</h2>
+      {%- if section.settings.text != blank -%}<div class="bw-steps__lede">{{ section.settings.text }}</div>{%- endif -%}
+      <div class="bw-img" style="aspect-ratio:16/10">
+        {%- if section.settings.image != blank -%}{{ section.settings.image | image_url: width: 1200 | image_tag: loading: 'lazy' }}{%- else -%}{{ 'lifestyle-2' | placeholder_svg_tag }}{%- endif -%}
+      </div>
+    </div>
+    <ol>
+      {%- for block in section.blocks -%}
+        <li {{ block.shopify_attributes }}><b>{{ forloop.index }}</b><div><strong>{{ block.settings.title }}</strong><p>{{ block.settings.text }}</p></div></li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</div>
+</div>
+{% schema %}
+{
+  "name": "BW: delivery steps",
+  "settings": [
+    {"type":"text","id":"heading","label":"Heading","default":"It's a 12-foot, 1,600-lb crate on a freight truck. Here's how that goes."},
+    {"type":"richtext","id":"text","label":"Lede","default":"<p>Most sites tell you this after you've paid. Freight is the part people get surprised by, so it's on the front page.</p>"},
+    {"type":"image_picker","id":"image","label":"Photo"},
+    {"type":"color_scheme","id":"color_scheme","label":"Color scheme","default":"scheme-1"},
+    {"type":"range","id":"padding_top","min":0,"max":100,"step":4,"unit":"px","label":"Top padding","default":44},
+    {"type":"range","id":"padding_bottom","min":0,"max":100,"step":4,"unit":"px","label":"Bottom padding","default":44}
+  ],
+  "blocks": [{"type":"step","name":"Step","settings":[
+    {"type":"text","id":"title","label":"Title","default":"You pick how it arrives."},
+    {"type":"textarea","id":"text","label":"Text","default":"Business with a forklift: included on Forward, flat zone rate on AMGO."}
+  ]}],
+  "presets": [{"name":"BW: delivery steps","blocks":[
+    {"type":"step","settings":{"title":"Before it ships, we check your numbers.","text":"Ceiling height, concrete, and power against the spec sheet. If it won't fit, you hear it from us before the crate exists, not from the installer after."}},
+    {"type":"step","settings":{"title":"You pick how it arrives.","text":"Business with a forklift: included on Forward, flat zone rate on AMGO. Home driveway: liftgate truck, +$225 — the driver sets it on the ground, it doesn't go inside. Sussex pickup: free, bring a trailer."}},
+    {"type":"step","settings":{"title":"The carrier calls you for a window.","text":"Usually a four-hour block on a weekday. Somebody has to be there. Tracking hits your email the day it leaves."}},
+    {"type":"step","settings":{"title":"Look before you sign.","text":"Count pieces, photograph anything bent, write it on the receipt. Do that and a damage claim is our problem to chase, not yours."}}
+  ]}]
+}
+{% endschema %}

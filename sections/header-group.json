@@ -1,0 +1,95 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "show_line_separator": false,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      },
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "The price on the page is the cash price. No fee at checkout, no \"call for pricing.\"",
+            "text_alignment": "center",
+            "color_scheme": "scheme-3",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ]
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "menu_color_scheme": "scheme-2",
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 14,
+        "padding_bottom": 14
+      }
+    },
+    "strip": {
+      "type": "bwlt-strip",
+      "blocks": {
+        "i1": {
+          "type": "item",
+          "settings": {
+            "text": "<p><strong>Freight included</strong> on Forward to any business</p>"
+          }
+        },
+        "i2": {
+          "type": "item",
+          "settings": {
+            "text": "<p><strong>+$225</strong> liftgate to a home driveway</p>"
+          }
+        },
+        "i3": {
+          "type": "item",
+          "settings": {
+            "text": "<p><strong>Free pickup</strong> in Sussex, WI</p>"
+          }
+        },
+        "i4": {
+          "type": "item",
+          "settings": {
+            "text": "<p>Questions: <strong>[PHONE]</strong>, Dave answers</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "strip"
+  ]
+}

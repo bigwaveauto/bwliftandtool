@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "body": {
+      "type": "rich-text",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BW Lift &amp; Tool is the equipment side of Big Wave Auto, an independent dealership in Sussex, Wisconsin. We recondition our own inventory on a lift in our bay, and we sell the equipment we'd buy again — through a distributor we've dealt with for years, at a cash price that's on the page, with the freight spelled out. Come see one run before you buy; showroom by appointment, Mon–Sat 9–6.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "t"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "main",
+    "body"
+  ]
+}
