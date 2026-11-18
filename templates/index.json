@@ -13,7 +13,7 @@
         "t": {
           "type": "text",
           "settings": {
-            "text": "<p>AMGO and Forward two-post and four-post lifts, bought through the same distributor the big shops use, sold at a cash price with the freight spelled out. We run one in our own bay in Sussex.</p>",
+            "text": "<p>Eight AMGO lifts — five two-post, three four-post — bought through the same distributor the big shops use, sold at a cash price with the freight spelled out. We run one in our own bay in Sussex.</p>",
             "text_style": "body"
           }
         },
@@ -23,7 +23,7 @@
             "button_label": "Find the right lift",
             "button_link": "#lifting",
             "button_style_secondary": false,
-            "button_label_2": "See all 13 models",
+            "button_label_2": "See all eight",
             "button_link_2": "shopify://collections/best-sellers",
             "button_style_secondary_2": true
           }
@@ -57,9 +57,9 @@
           "settings": {
             "title": "Cars & crossovers",
             "vehicles": "Model Y, Camry, Wrangler — under 6,000 lb",
-            "result": "<p>→ 9K lift, from <strong>$[PRICE]</strong></p>",
-            "ceiling": "needs 11′8″ ceiling [SPEC]",
-            "link": "shopify://collections/2-post-lifts"
+            "result": "<p>→ OH-9, 9,000 lb, <strong>$2,745</strong></p>",
+            "ceiling": "needs [SPEC] ceiling",
+            "link": "shopify://products/amgo-oh-9-9000-lbs-2-post-lift"
           }
         },
         "c2": {
@@ -67,9 +67,9 @@
           "settings": {
             "title": "Half-ton & EV trucks",
             "vehicles": "F-150, Silverado, Rivian R1T, Cybertruck",
-            "result": "<p>→ 10K lift, from <strong>$3,600</strong></p>",
-            "ceiling": "needs 12′ ceiling, or 10′6″ with a floor-plate model",
-            "link": "shopify://collections/2-post-lifts",
+            "result": "<p>→ OHX-10, 10,000 lb, <strong>$3,600</strong></p>",
+            "ceiling": "needs 12′ ceiling",
+            "link": "shopify://products/amgo-ohx-10-10000-lbs-2-post-lift",
             "highlight": true
           }
         },
@@ -78,9 +78,9 @@
           "settings": {
             "title": "3/4- and one-ton",
             "vehicles": "F-250/350, Ram 2500, Sprinter, Transit",
-            "result": "<p>→ 12K lift, <strong>$4,395</strong></p>",
+            "result": "<p>→ OH-12S, 12,000 lb, <strong>$4,395</strong></p>",
             "ceiling": "needs 12′6″ ceiling",
-            "link": "shopify://collections/2-post-lifts"
+            "link": "shopify://products/amgo-oh-12s-12000-lbs-2-post-lift"
           }
         },
         "c4": {
@@ -88,8 +88,8 @@
           "settings": {
             "title": "Storage, not service",
             "vehicles": "Park one car over another; 7–9K four-post",
-            "result": "<p>→ 407-P / 408-P / 409-HP, from <strong>$[PRICE]</strong></p>",
-            "ceiling": "needs 10′–12′ ceiling [SPEC]",
+            "result": "<p>→ 407-P / 408-P / 409-HP, from <strong>$2,980</strong></p>",
+            "ceiling": "needs [SPEC] ceiling",
             "link": "shopify://collections/4-post-lifts"
           }
         }
@@ -112,7 +112,7 @@
       "settings": {
         "title": "The eight we keep in front",
         "heading_size": "h2",
-        "description": "Need a different model? Search the full catalog — 124 more.",
+        "description": "Five two-post, three four-post. Forward, Rotary, Atlas, Coats and the rest of the AMGO line are in the full catalog.",
         "show_description": true,
         "description_style": "body",
         "collection": "best-sellers",
@@ -149,7 +149,7 @@
           "type": "step",
           "settings": {
             "title": "You pick how it arrives.",
-            "text": "Business with a forklift: included on Forward, flat zone rate on AMGO. Home driveway: liftgate truck, +$225 — the driver sets it on the ground, it doesn't go inside. Sussex pickup: free, bring a trailer."
+            "text": "Business with a forklift: flat zone rate on AMGO (freight is included on Forward). Home driveway: liftgate truck, +$225 — the driver sets it on the ground, it doesn't go inside. Sussex pickup: free, bring a trailer."
           }
         },
         "s3": {
